@@ -1,0 +1,54 @@
+ .cardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+  }  
+
+
+  
+  .buttonHome{
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    border: 2.5px solid #FF0072;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #FF0072;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+   }
+   
+   .buttonHome:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 20%;
+    right: 20%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #FF0072;
+    z-index: -1;
+   }
+   
+   .buttonHome:hover, button:focus {
+    color: white;
+   }
+   
+   .buttonHome:hover:before, button:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+   }
+   
+   .buttonHome:active {
+    transform: scale(0.9);
+   }

@@ -1,0 +1,38 @@
+.card1{
+   
+        display:flex;
+        justify-content: center;
+        flex-direction:column;
+        align-items:center;
+   
+}
+    .card{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+    width:320px;
+    height:320px;
+    background-image: url("../../assests/Img/Image/fondo2.png");
+    background-size: contain;
+    margin: 30px;
+    font-size:xx-small;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #252525;
+    text-decoration: none;
+    text-shadow: 1px 1px white;
+
+    }
+    
+    
+    .info{
+        text-decoration: none;
+        font-family: inherit;
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+    .imageDog{
+        max-height:120px;
+    }
